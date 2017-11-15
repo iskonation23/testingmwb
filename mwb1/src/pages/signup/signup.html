@@ -1,0 +1,42 @@
+<ion-header>
+    <ion-navbar>
+        
+      <ion-title>
+        Create Account
+      </ion-title>
+      
+    </ion-navbar>
+  </ion-header>
+
+<ion-content padding class="bg-image">
+  
+  <ion-list class="marginTop">
+  
+    
+     
+
+   
+     
+      <ion-item>
+        <ion-label floating>Username</ion-label>
+        <ion-input type="text" #username></ion-input>
+      </ion-item>
+    
+  
+      <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" #password></ion-input>
+      </ion-item>
+      
+      <div padding>
+          
+        <button block ion-button class="margina" (click)="registerUser()" item-lefts>Register</button>
+        <button block ion-button  outline (click)="signup()">Skip</button>
+        </div>
+
+        
+    
+    
+  </ion-list>
+  </ion-content>
+  

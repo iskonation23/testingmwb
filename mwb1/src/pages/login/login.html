@@ -1,0 +1,38 @@
+<ion-header>
+    <ion-navbar>
+      <ion-title>
+          <img src="assets/image/instructor.png" class="navbarLogo"/>
+      </ion-title>
+      
+    </ion-navbar>
+  </ion-header>
+ 
+  
+  <ion-content padding class="background">
+    <ion-card class="marginTop">
+        <ion-card-header>INSTRUCTOR LOGIN</ion-card-header>
+        <ion-card-content>
+    <ion-list  no-lines>
+    <ion-item>
+      <ion-label floating>Username</ion-label>
+      <ion-input type="text" #username></ion-input>
+    </ion-item>
+
+    <ion-item>
+        <ion-label floating>Password</ion-label>
+        <ion-input type="password" #password></ion-input>
+      </ion-item>
+    
+   
+    
+    <div padding>
+      <button block ion-button color="lightprimary" (click)="signInUser()">Sign In</button>
+      
+    </div>
+
+ 
+  
+</ion-list>
+</ion-card-content>
+</ion-card>
+</ion-content>

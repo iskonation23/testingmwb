@@ -1,0 +1,50 @@
+page-welcome {
+#welcome{
+    background-image: url('../assets/image/solid.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain; 
+
+    h1{
+        font-size: 32 px;
+        margin-top:10px;
+        color: white;
+        
+    }
+    .marginTop{
+        margin-top:70px;
+    }
+    div{
+        color: #6f7bec;
+         
+    }
+    .logo{
+        height: 180px;
+        align-items: center;
+      
+        margin-block-end: 10px;
+        margin-left: 165px;
+        margin-right: 15px;
+        margin: 0 auto;
+        opacity: 40px;
+    }
+    .bg-image{
+        background-image: url('../assets/image/backjie.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+    }
+    .button{
+        position: center;
+        color: white;
+        
+    }
+
+    .marginTop1{
+        margin-top:5px;
+    }
+   
+    }
+}
+

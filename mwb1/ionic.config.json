@@ -1,0 +1,8 @@
+{
+  "name": "MW-BEA of DFCAITTI",
+  "app_id": "",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}

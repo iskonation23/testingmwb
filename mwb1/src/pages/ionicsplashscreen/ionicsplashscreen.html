@@ -1,0 +1,66 @@
+
+
+
+<div id="custom-overlay" [style.display]="splash ? 'flex': 'none'">
+  <div class="flb">
+    <div class="Aligner-item Aligner-item--top"></div>
+   
+    <div class="Aligner-item Aligner-item--bottom"></div>
+  </div>
+</div>
+
+<ion-content padding id="welcome">
+  
+       <ion-slides pager (ionSlideDidChange) = "slideChanged()">
+       
+          <ion-slide>
+              <img src="assets/image/ionic.png" class="logo" />
+             
+                
+            <div>
+
+              <h2>Mobile Web-Based Educational Application </h2>
+            
+              <p>is  an application where student can easily get their lectures, 
+                homework and activities in school, they don’t need to spend money and a lot of  
+                papers just to photocopy. Just to download the apps
+                 to access lectures by their teachers and they will get it.</p>
+                
+            </div>
+         
+          </ion-slide>
+      
+          <ion-slide>
+              <img src="assets/image/logo-logo.png" class="logo" />
+           
+              
+           
+            <div>
+              <h2>Dr. Filemon C. Aguilar Information Technology Training Institute </h2>
+              <p>is an institution accredited by 
+                  TESDA that offers and Vocational Education and Training Programs (TVET) under the Technical 
+                  Education and Skills Development Authority (TESDA) and the Commission on Higher Education 
+                  (CHED).
+                  </p>
+            </div>
+          </ion-slide>
+      
+          <ion-slide>
+              <img src="assets/image/instudent.png" class="logo" />
+              
+            <div>
+              <h2>Instructor and Student</h2>
+              <p><u> <b>Instructor:</b> </u>The mobile web-based application can benefited the instructor for it gave 
+                  appropriate  ways of uploading files, assignments and activities and lectures of students.
+                  </p>
+                  <p><u><b>Students.</b> </u>The mobile web-based application benefited the students where can get the activities 
+                      provided  by their teachers through internet. The students can download  it  through  their Android phone 
+                      and  they  can view or read it.
+                      </p>
+            </div>
+          </ion-slide>
+       </ion-slides>
+      
+       <button (click)="skip()" id="skip" class="primary" >{{ skipMsg }}</button>
+     
+</ion-content>

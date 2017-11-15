@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+      
+    <ion-title>
+        <img src="assets/image/student.png" class="navbarLogo"/>
+    </ion-title>
+    
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg-image">
+  <h1>EDUCATIONAL APPLICATION</h1>
+  <ion-card class="marginTop">
+      
+    <ion-card-header><h3>SRUDENT LOGIN</h3></ion-card-header>
+  <ion-card-content>
+
+  <ion-list no-lines>
+
+  <ion-item>
+    <ion-label floating >Username</ion-label>
+    <ion-input type="text" #username></ion-input>
+  </ion-item>
+
+  <ion-item>
+      <ion-label floating>Password</ion-label>
+      <ion-input type="password" #password></ion-input>
+    </ion-item>
+  
+  <div padding>
+    <button block ion-button color="lightprimary" (click)="signInUser()" outline>Sign In</button>
+    
+  </div>
+</ion-list>
+</ion-card-content>
+</ion-card>
+
+
+
+</ion-content>

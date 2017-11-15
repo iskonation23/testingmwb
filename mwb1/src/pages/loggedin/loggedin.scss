@@ -1,0 +1,39 @@
+page-loggedin {
+
+    .marginTop{
+        margin-top:300px;
+
+}
+    .outer-progress{
+        padding: 2px;
+        border: 1px solid #ccc;
+        width: 100%;
+
+    }
+    .outer-progressbar .outer-progressbar{
+        background-color: red;
+        text-align: center;
+        font-weight:  bold;
+        color: #fff;
+        width: 100%;
+    }
+    #div{
+        margin-top: 100px;
+    }
+    .bg-image{
+        background-image: url('../assets/image/loggedin.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+
+    }
+    p{
+        color: white;
+    }
+    input{
+        color: white;
+    }
+    .wala{
+      background-color: transparent;
+    }
+}

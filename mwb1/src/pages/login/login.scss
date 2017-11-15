@@ -1,0 +1,50 @@
+page-login {
+
+   
+
+    .marginTop{
+        margin-top:70px;
+
+}
+.bg-image{
+    background-image: url('../assets/image/backgroundstudent.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+}
+.background{
+    width:100%;
+    height:100%;
+    background: linear-gradient(10deg,#4E5Efc,#4ee7fc);
+}
+.scroll-content{
+    text-align: center;
+    text-decoration-color: white;
+}
+ion-card.card{
+    background: rgba(11, 13, 51, 0.281);
+    border-radius: 10px;
+}
+.item{
+    background: rgba(11, 13, 51, 0.281);
+    border-radius: 10px;
+}
+ion-input{
+    border-bottom: rgb(216, 11, 48);
+
+}
+h1{
+    color: white;
+    font-size: 2em;
+    font-family:'Gill Sans','Gill Sans MT',Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: lighter;
+
+
+}
+ion-input{
+    color: white;
+}
+}
+
+

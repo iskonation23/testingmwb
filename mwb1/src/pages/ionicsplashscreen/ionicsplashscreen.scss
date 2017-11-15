@@ -1,0 +1,47 @@
+page-ionicsplashscreen {
+    #welcome{
+        background-image: url('../assets/image/bars.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain; 
+
+    #skip {
+        position:absolute;
+        bottom: 20px;
+        width:100%;
+        background:none !important;
+        text-align:center;
+        cursor:pointer;
+        z-index:5;
+        margin-left: 100px;
+        
+        
+    }
+    .logo{
+        
+        height: 180px;
+        align-items: center;
+      
+        margin-block-end: 10px;
+        margin-left: 65px;
+        margin-right: 150px;
+        margin: 0 auto;
+       
+       
+        
+       
+    }
+    p{
+        font-size: 15px;
+        color: white;
+    }
+
+}
+h2{
+    font-size: 32 px;
+    margin-top:20px;
+    color: white;
+   
+    
+}
+}

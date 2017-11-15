@@ -1,0 +1,67 @@
+<!--
+  Generated template for the LoggedinPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  
+    <ion-navbar>
+        <img src="assets/image/instructor.png" class="navbarLogo"/>
+      <button ion-button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+      </button>
+      <ion-title>INSTRUCTOR</ion-title>
+    </ion-navbar>
+  
+  </ion-header>
+  
+  
+  <ion-content padding class="bg-image">
+      <p>{{email}}</p>
+    
+      <ion-card *ngIf="provider.loggedin">
+            <img src="{{ provider.profilePicture }}"/>
+            <ion-card-content>
+              <ion-card-title>
+                {{ provider.name }}
+              </ion-card-title>
+              <p style="text-align: center">
+                {{ provider.email }}
+              </p>
+            </ion-card-content>
+          </ion-card>
+       
+        <button ion-button (click)="logout()" *ngIf="provider.loggedin">Logout</button>
+   
+    <button ion-button (click)="logout()" *ngIf="provider.loggedin">Logout</button>
+
+      <div class="outer-progressbar" id="div">
+        <input type="file" (change)="selectFile($event)">
+        <img [src]="image" *ngIf="image" style="margin: 10px; max-width:300px;">
+        
+        <button ion-button color="primary"  (click)="startUpload()">Upload Photo
+           </button>
+          
+     
+     
+      </div>
+     
+      <div class="outer-progressbar">
+         <button ion-button color="primary" (click)="uploadProgressbar()">Upload File</button>
+         <div class="progressbar" *ngIf="progress">
+           {{ progress }}% {{uploaded}}MB / {{totalByte}}MB
+           <div class="inner-progressbar" [style.width]="progress+'%'">
+
+           </div>
+         </div>
+      </div>
+    <div>
+      <button ion-button block outline color="lightprimary"  class="marginTop" (click)="logout()" item-bottom-left>Logout</button>
+      <button ion-button block outline color="lightprimary" (click)="loginabout()">About</button>
+      <button ion-button block outline color="lightprimary" (click)="logincontact()">Contacts</button>
+    </div>
+    
+
+  </ion-content>
+  
